@@ -1,14 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from SGP.Cov import GaussianCovariance_generic
-from SGP.Factors import ExplicitKLFactorization,ImplicitKLFactorization
-from SGP.meas import PointMeasurement,dPointMeasurement,ddPointMeasurement,dddPointMeasurement,ddddPointMeasurement
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from Cov import GaussianCovariance_generic
+from Factors import ExplicitKLFactorization,ImplicitKLFactorization
+from meas import PointMeasurement,dPointMeasurement,ddPointMeasurement,dddPointMeasurement,ddddPointMeasurement
 from scipy.sparse.linalg import LinearOperator,spsolve_triangular
 import scipy.sparse.linalg as lg
 import argparse
 import pyoti.sparse as oti
-from SGP.supernode_converter import convert_measurements_to_list_of_dicts
+from supernode_converter import convert_measurements_to_list_of_dicts
 import time
 from scipy.sparse import csc_matrix
 from scipy.sparse.linalg import cg
