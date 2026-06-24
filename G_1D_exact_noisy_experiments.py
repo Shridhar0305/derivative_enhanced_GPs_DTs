@@ -1,8 +1,8 @@
 import numpy as np
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from SGP.Cov import GaussianCovariance_generic
-from SGP.meas import PointMeasurement,dPointMeasurement,ddPointMeasurement
-from SGP.meas import dddPointMeasurement,ddddPointMeasurement
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from Cov import GaussianCovariance_generic
+from meas import PointMeasurement,dPointMeasurement,ddPointMeasurement
+from meas import dddPointMeasurement,ddddPointMeasurement
 import argparse
 from scipy.optimize import minimize
 import scipy
