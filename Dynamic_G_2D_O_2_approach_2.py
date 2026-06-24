@@ -2,12 +2,12 @@ import numpy as np
 import pandas as pd
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from SGP.Cov import GaussianCovariance_generic
-from SGP.Factors import ExplicitKLFactorization,ImplicitKLFactorization
-from SGP.meas import PointMeasurement,dPointMeasurement,ddPointMeasurement,dddPointMeasurement,ddddPointMeasurement
-from SGP.supernode_converter import convert_measurements_to_list_of_dicts
-from SGP.Cov_g import gaussian_cov_generic as g
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from Cov import GaussianCovariance_generic
+from Factors import ExplicitKLFactorization,ImplicitKLFactorization
+from meas import PointMeasurement,dPointMeasurement,ddPointMeasurement,dddPointMeasurement,ddddPointMeasurement
+from supernode_converter import convert_measurements_to_list_of_dicts
+from Cov_g import gaussian_cov_generic as g
 import scipy.sparse.linalg as lg
 import argparse
 from scipy.optimize import minimize
