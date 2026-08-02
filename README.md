@@ -27,8 +27,7 @@ venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-## Follow the insttruction to use Cythonized version of code (efficient in parallel processing)
-cd SGP
+## Follow the instructions to use Cythonized version of the code (efficient in parallel processing)
 python Setup.py build_ext --inplace
 
 
