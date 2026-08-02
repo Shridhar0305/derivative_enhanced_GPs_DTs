@@ -9,7 +9,7 @@ Code repository for the paper: A Streaming Sparse Cholesky Method for Derivative
 ## Overview
 This repository contains the implementation of the experiments presented in our paper.  
 
-The experiments can be run by executing the `.py` files located in the **`Experiments/`** folder.
+The experiments can be run by executing the `.py` files.
 
 ## Installation of required libraries
 
