@@ -1,12 +1,14 @@
 # Sparse_GP_with_derivatives
 
-Code repository for the paper: A Streaming Sparse Cholesky Method for Derivative-Informed Gaussian Process Surrogates Within Digital Twin Applications
+Code repository for the paper: A Streaming Sparse Cholesky Method for Derivative-Informed Gaussian Process Surrogates Within Digital Twin Applications.
+
+Link to the paper: https://www.sciencedirect.com/science/article/pii/S0021999126006182
 
 Authors: Shridhar Vashishtha*, Krishna Prasath Logakannan*, Jacob Hochhalter, Shandian Zhe, Robert M. Kirby
 
 S.Vashishtha and KP. Logakannan contributed equally to the writing, testing, and debugging of the code.
 
-*(This work is accepted at Journal of Computational Physics. Link to the paper will be made available when the article is ready to be published)*
+*Vashishtha, S., Logakannan, K. P., Hochhalter, J., Zhe, S., & Kirby, R. M. (2026). A Streaming Sparse Cholesky Method for Derivative-Informed Gaussian Process Surrogates Within Digital Twin Applications. Journal of Computational Physics, 115268. https://doi.org/10.1016/j.jcp.2026.115268*
 
 **  **
 
@@ -37,7 +39,9 @@ python Setup.py build_ext --inplace
 
 Note: Cython version is tested on macOS. 
 
-## Citation format (after publication):
+## Citation:
+
+Vashishtha, S., Logakannan, K. P., Hochhalter, J., Zhe, S., & Kirby, R. M. (2026). A Streaming Sparse Cholesky Method for Derivative-Informed Gaussian Process Surrogates Within Digital Twin Applications. Journal of Computational Physics, 115268. https://doi.org/10.1016/j.jcp.2026.115268
 
 
 
