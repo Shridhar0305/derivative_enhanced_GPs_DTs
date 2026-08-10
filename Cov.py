@@ -1,3 +1,7 @@
+"""
+Cov.py: This is the foundational python file used for making the covariance matrix.
+"""
+
 import numpy as np
 from abc import ABC, abstractmethod
 
