@@ -1,3 +1,6 @@
+"""
+He.py: Supporting file used for the software.
+"""
 import numpy as np
 import heapq
 import warnings
