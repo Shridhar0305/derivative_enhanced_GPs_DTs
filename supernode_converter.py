@@ -1,3 +1,7 @@
+"""
+supernode_converter.py: Supporting file used in this work.
+"""
+
 import numpy as np
 
 
