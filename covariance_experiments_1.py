@@ -1,3 +1,7 @@
+"""
+covariance_experiments_1.py: Experiments in section 2 and 3 of the work.
+"""
+
 import numpy as np
 import pandas as pd
 import sys
