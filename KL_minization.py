@@ -1,3 +1,6 @@
+"""
+KL_minimization.py: Supporting python file used for the work. It represents the KL minimization used for creating the Cholesky factor.
+"""
 import numpy as np
 from scipy.linalg import cholesky, solve_triangular
 from scipy.sparse import csc_matrix
