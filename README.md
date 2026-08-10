@@ -37,7 +37,3 @@ pip install -r requirements.txt
 python Setup.py build_ext --inplace
 
 Note: Cython version is tested on macOS. 
-
-
-
-
