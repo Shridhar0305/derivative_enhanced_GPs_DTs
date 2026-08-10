@@ -1,3 +1,6 @@
+"""
+meas.py: Supporting file used in the work.
+"""
 import numpy as np
 from abc import ABC, abstractmethod
 # from numba import njit
