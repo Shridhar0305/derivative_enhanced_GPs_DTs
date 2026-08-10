@@ -1,3 +1,7 @@
+"""
+G_1D_exact_noisy_experiments.py: This file represents the primary file for the noisy experiments mentioned in section 2 of the work.
+"""
+
 import numpy as np
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from Cov import GaussianCovariance_generic
