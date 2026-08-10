@@ -1,3 +1,6 @@
+"""
+Setup.py: Cython setup file.
+"""
 # setup.py
 
 from setuptools import setup
