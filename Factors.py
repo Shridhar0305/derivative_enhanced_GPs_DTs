@@ -1,4 +1,6 @@
-
+"""
+Factors.py: This is the foundational python file used for the factorizations used in this work. It contains the functions used for factorization.
+"""
 import numpy as np
 from scipy.spatial import KDTree
 from abc import ABC
