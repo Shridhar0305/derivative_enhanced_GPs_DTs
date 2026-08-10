@@ -1,3 +1,7 @@
+"""
+covariance_experiments_2.py: Experiments in section 2 and 3 of the work.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from Cov import GaussianCovariance_generic
