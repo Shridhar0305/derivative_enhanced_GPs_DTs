@@ -36,12 +36,8 @@ pip install -r requirements.txt
 ## Follow the instructions to use Cythonized version of the code (efficient in parallel processing)
 python Setup.py build_ext --inplace
 
-
 Note: Cython version is tested on macOS. 
 
-## Citation:
-
-Vashishtha, S., Logakannan, K. P., Hochhalter, J., Zhe, S., & Kirby, R. M. (2026). A Streaming Sparse Cholesky Method for Derivative-Informed Gaussian Process Surrogates Within Digital Twin Applications. Journal of Computational Physics, 115268. https://doi.org/10.1016/j.jcp.2026.115268
 
 
 
