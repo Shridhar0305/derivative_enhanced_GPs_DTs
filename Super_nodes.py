@@ -1,4 +1,6 @@
-
+"""
+Super_nodes.py: Supernodes backbone used in this work.
+"""
 import numpy as np
 # from numba import njit
 
