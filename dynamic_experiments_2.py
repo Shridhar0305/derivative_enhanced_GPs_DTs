@@ -1,3 +1,6 @@
+"""
+dynamic_experiments_2.py: Dynamic experiments in section 4 of the work.
+"""
 import numpy as np
 import pandas as pd
 import sys
