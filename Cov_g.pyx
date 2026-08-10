@@ -1,3 +1,6 @@
+"""
+Cov_g.pyx: This is the foundational cython file used for making the covariance matrix.
+"""
 
 import numpy as np
 # Import the C-level NumPy API
