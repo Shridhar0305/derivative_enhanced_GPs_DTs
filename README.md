@@ -6,7 +6,7 @@ Authors: Shridhar Vashishtha*, Krishna Prasath Logakannan*, Jacob Hochhalter, Sh
 
 S.Vashishtha and KP. Logakannan contributed equally to the writing, testing, and debugging of the code.
 
-*(This work is still under review. Link to the paper will be made available when the article is ready to be published)*
+*(This work is accepted at Journal of Computational Physics. Link to the paper will be made available when the article is ready to be published)*
 
 **  **
 
