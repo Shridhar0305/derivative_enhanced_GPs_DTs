@@ -2,6 +2,10 @@
 
 Code repository for the paper: A Streaming Sparse Cholesky Method for Derivative-Informed Gaussian Process Surrogates Within Digital Twin Applications
 
+Authors: Shridhar Vashishtha*, Krishna Prasath Logakannan*, Jacob Hochhalter, Shandian Zhe, Robert M. Kirby
+
+S.Vashishtha and KP. Logakannan contributed equally to the writing, testing, and debugging of the code.
+
 *(This work is still under review. Link to the paper will be made available when the article is ready to be published)*
 
 **  **
