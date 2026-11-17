@@ -217,7 +217,7 @@ if __name__=="__main__":
     args = parse_commandline()
     
     # Reading test file
-    test_file=pd.read_csv("./data/Dynamic/dynamic_test_G2.csv")
+    test_file=pd.read_csv("./dynamic_test_G2.csv")
     data_test=np.zeros((2,test_file.shape[0]))
     data_test[0,:]=np.array(test_file['X_0']).flatten()
     data_test[1,:]=np.array(test_file['X_1']).flatten()
@@ -241,7 +241,7 @@ if __name__=="__main__":
         truth_with_der[i*n:(i*n)+n]=np.array(file[str(der_indices[i])]).flatten()
 
     # Reading new data
-    new_pt_file=pd.read_csv(f"./data/Dynamic/new_2D_pt_10_2_der.csv")
+    new_pt_file=pd.read_csv(f"./new_2D_pt_10_2_der.csv")
     n=new_pt_file.shape[0]
     new_points=np.zeros((n,2))
     new_points[:,0]=np.array(new_pt_file['X0']).flatten()
