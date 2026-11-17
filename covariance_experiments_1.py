@@ -188,7 +188,7 @@ if __name__=="__main__":
 
     # Reading initial training set
     n=int(args.h)
-    file=pd.read_csv(f"./data/3D/train_G3_{n}.csv")
+    file=pd.read_csv(f"./train_G3_{n}.csv")
     data=np.zeros((3,n))
     data[0,:]=np.array(file['X0']).flatten()
     data[1,:]=np.array(file['X1']).flatten()
