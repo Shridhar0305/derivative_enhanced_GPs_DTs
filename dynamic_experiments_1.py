@@ -217,7 +217,7 @@ if __name__=="__main__":
     args = parse_commandline()
     
     # Reading test file
-    test_file=pd.read_csv("./data/Dynamic/dynamic_test_G2.csv")
+    test_file=pd.read_csv("./dynamic_test_G2.csv")
     data_test=np.zeros((2,test_file.shape[0]))
     data_test[0,:]=np.array(test_file['X_0']).flatten()
     data_test[1,:]=np.array(test_file['X_1']).flatten()
@@ -227,7 +227,7 @@ if __name__=="__main__":
 
     der_indices=[[0], [1],[2],[1,1],[1,2],[2,2]] # Indexing used for reading derivatives
     # Reading initial training set
-    file=pd.read_csv(f"./data/Dynamic/train_G2_pt_25_2_der.csv")
+    file=pd.read_csv(f"./train_G2_pt_25_2_der.csv")
     n=file.shape[0]
     data=np.zeros((2,n))
     data[0,:]=np.array(file['X0']).flatten()
